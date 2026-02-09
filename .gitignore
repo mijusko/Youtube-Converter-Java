@@ -2,8 +2,8 @@
 *.class
 
 # Executables and large binaries
+# Ne dodajemo ove fajlove u repo jer su specificni za sistem ili preveliki
 *.exe
-*.jar
 yt-dlp
 ffmpeg
 ffprobe
@@ -13,4 +13,6 @@ ffprobe
 Thumbs.db
 
 # Project specific
-manifest.txt
+# manifest.txt je potreban za build, pa ga ostavljamo
+# YouTubeConverter.jar ne dodajemo jer ga BAT fajl sam pravi
+YouTubeConverter.jar
